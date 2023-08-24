@@ -1,0 +1,29 @@
+body {
+    background-color: #333; /* Color de fondo oscuro */
+    color: #fff; /* Color de texto blanco para contrastar */
+  }
+  
+  /* Puedes ajustar los estilos para otros elementos según tus necesidades */
+  h1, h2, h3 {
+    color: #ffcc00; /* Color de encabezados */
+  }
+  
+  a {
+    color: #00aaff; /* Color de enlaces */
+  }
+  
+  /* Estilos para botones u otros elementos interactivos */
+  .button {
+    background-color: #555; /* Color de fondo para botones */
+    color: #fff; /* Color de texto para botones */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+  }
+  
+  /* Estilos para resaltar algún elemento */
+  .highlight {
+    background-color: #ffcc00; /* Color de fondo para resaltar */
+    color: #333; /* Color de texto para resaltar */
+  }
+  
