@@ -1,0 +1,36 @@
+Programar => Realizar una secuencia de pasos lógicos para obtener un resultado
+	=> 1.- Entender qué tenemos que lograr 
+		-> La máquina tiene que porder hacer algo
+	=> 2.- Entender cuáles son la herramientas para obtener el resultado deseado
+		-> 1.- ¿Qué me va a ayudar para que la máquina realice el trabajo?
+		-> 2.- Comunicarle a la máquina qué necesita para realizar el trabajo
+			=> Sentencias (oraciones)
+			=> Bloques de código (párrafos)
+			=> Programa (texto)
+	
+Lenguaje de Programación - Reglas sintáctico gramaticales que permiten la comunicación entre los humanos y las máquinas
+	JavaScript - Permite la comunicación con los Navegadores Web
+		=> Es necesario tener un archivo html para poner el código JS
+			-> Utilizar la etiqueta script para, en el mismo archivo escribir el código JS
+			-> Utilizar la etiqueta script y agregarle el atributo src para poner la ruta al archivo .js. La etiqueta script tiene que estar en la línea inmediatamente superior al cierre del body
+		=> 1995 - Brendan Eich
+			=> Estandar de Lenguaje - Conjunto de reglas sintáctico gramaticales que hay que utilizar para escribir un lenguaje
+				-> ECMAScript 5 - Estandar anterior
+					-> var
+				-> ECMAScript 6 (ECMAScript 2015) - Estandar actual
+					-> No todos los navegadores entienden en su totalidad este estandar 
+					-> let y const
+		=> Lenguaje Interpretado Just-in-Time
+			-> El Navegador lee una sentencia y realiza la acción que se le está ordenando con esa sentencia.
+			-> La lectura del archivo JS se hace línea a línea de arriba hacia abajo
+		
+Tipos de Lenguajes de Programación
+		=> Fuertemente Tipados
+			-> Obligan al programador a indicar cuál es tipo de dato que va tener el valor que va a almacenarse en la variable (C, C#, Java)
+		=> Debilmente Tipados	
+			-> Infieren el tipo de dato de la variable según el valor que se le asigna (guarda/almacena)
+				-> JS, php, ruby 
+		=> Tipado dinámico
+			-> Permiten modificar el tipo de dato que tiene una variable tantas veces como quieras
+		=> Tipado estático		
+			-> NUNCA permiten la modificación del tipo de dato que tiene una variable	
